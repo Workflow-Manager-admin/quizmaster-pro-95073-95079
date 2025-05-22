@@ -1,0 +1,111 @@
+.results-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.results-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.score-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--kavia-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.score-percentage {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.score-text {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.highlight {
+  color: var(--kavia-orange);
+  font-weight: bold;
+}
+
+.review-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.review-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.review-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.review-item.correct {
+  border-color: #4CAF50;
+}
+
+.review-item.incorrect {
+  border-color: #F44336;
+}
+
+.review-question {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.review-answers {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.wrong-indicator {
+  color: #F44336;
+  margin-left: 0.5rem;
+}
+
+.correct-indicator {
+  color: #4CAF50;
+  margin-left: 0.5rem;
+}
+
+.correct-answer {
+  color: #4CAF50;
+  margin-top: 0.25rem;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action-buttons .btn {
+  padding: 0.75rem 2rem;
+}
