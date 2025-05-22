@@ -1,0 +1,5 @@
+{
+  "task_description": "{'component_name': 'Main Container for QuizMaster Pro', 'description': 'Primary container for QuizMaster Pro implementation: A user-friendly quiz application that allows users to take multiple-choice quizzes, track their score, and review correct answers upon completion.', 'framework': 'react', 'platform': 'web'}",
+  "tasks": {},
+  "next_task_id": 1
+}
