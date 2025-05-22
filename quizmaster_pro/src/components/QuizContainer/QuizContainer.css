@@ -1,0 +1,124 @@
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.quiz-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.quiz-header h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.progress-container {
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--kavia-orange);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.question-counter {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-align: right;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+/* Quiz Selection Styles */
+.quiz-selection {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.selection-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.quizzes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.quiz-card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--border-color);
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--kavia-orange);
+}
+
+.quiz-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.quiz-card p {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  flex-grow: 1;
+}
+
+.quiz-card .question-count {
+  font-size: 0.9rem;
+  color: var(--kavia-orange);
+  margin-bottom: 1.25rem;
+}
+
+.quiz-card .btn {
+  align-self: flex-start;
+}
+
+/* Additional button styles */
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--kavia-orange);
+  color: var(--kavia-orange);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(232, 122, 65, 0.1);
+}
+
+.btn:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+  cursor: not-allowed;
+}
+
+.btn-secondary:disabled {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+}
